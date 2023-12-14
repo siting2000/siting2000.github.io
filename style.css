@@ -1,5 +1,29 @@
-.container{width: 800px;height: 960px;margin: 0 auto;font-family: 'Inconsolata', monospace;}
-h1{font-size: 48px;font-family: 'Roboto Mono', monospace;}
-.introduce{color:cornflowerblue;padding: 10px}
-p{color: brown;padding: 10px;font-family: 'Noto Sans TC', sans-serif;}
-ul{color:coral}
+.container{
+    width: 800px;
+    margin: 0 auto;
+    font-family: 'Inconsolata', monospace;
+    background-image: url("https://png.pngtree.com/background/20210711/original/pngtree-simple-small-fresh-watercolor-blue-universal-background-picture-image_1143863.jpg");
+}
+header{
+    
+}
+h1{
+    font-size: 48px;
+    font-family: 'Roboto Mono', monospace;
+}
+.introduce{
+    padding: 10px
+}
+p{
+    padding: 10px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+h2{
+    color:coral
+}
+img{
+    border-radius:50%;
+    border-width: 20px;
+    border-color:aliceblue;
+    border-style: solid;
+}
