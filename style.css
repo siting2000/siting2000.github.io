@@ -27,3 +27,12 @@ img{
     border-color:aliceblue;
     border-style: solid;
 }
+dd {
+    position: relative;
+    left: 70px;
+    top: -20px;
+}
+dd {
+    display: block;
+    margin-inline-start: 40px;
+}
