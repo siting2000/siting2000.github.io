@@ -33,15 +33,50 @@ document.writeln(i+","+j+"<br>");
 //    return msg;
 //}
 //document.writeln(returned2("hello"));
-function marry(x){
-    if(x>1000000){
-        return "我嫁給你";
-    }
-    else if (x>5000000){
-        return "妳嫁給我";
-    }
-    else{
-        return "存夠錢再來";
-    }
+
+//function marry(x){
+//    if(x>1000000){
+//        return "我嫁給你";
+//    }
+//    else if (x>5000000){
+//        return "妳嫁給我";
+//    }
+//    else{
+//        return "存夠錢再來";
+//    }
+//}
+//document.writeln(marry(1500000));
+
+//function country(){
+//    var countryCode="tw";
+//    var msg="";
+//    if(countryCode=="tw") return msg="您好":msg="how are you";
+//}
+//document.writeln(country());
+
+for (var i=0; i<= 30;i+=2) {
+    document.writeln(i);
+
 }
-document.writeln(marry(1500000));
+document.writeln("<br>");
+
+for (var i=0; i<30;i++) {
+  if (i%3!= 0) {
+    document.writeln(i);
+  }
+}
+document.writeln("<br>");
+
+var i=1;
+while(i<=50){
+    document.writeln(i);
+    i+=2;
+}
+document.writeln("<br>");
+
+//var i=0;
+//while(i<50){
+//    i++;
+//    document.writeln(i);
+//}
+
